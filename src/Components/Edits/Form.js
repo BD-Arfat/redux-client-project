@@ -40,7 +40,7 @@ const Form = () => {
             tag
         };
 
-        fetch(`http://localhost:5000/products/${_id}`, {
+        fetch(`https://redux-server-bd-arfat-bd-arfat-s-team.vercel.app/products/${_id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",

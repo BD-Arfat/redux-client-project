@@ -25,7 +25,7 @@ export const router = createBrowserRouter([
             {
                 path : '/editVideo/:id',
                 element : <Edits/>,
-                loader : ({params})=>fetch(`http://localhost:5000/products/${params.id}`)
+                loader : ({params})=>fetch(`https://redux-server-bd-arfat-bd-arfat-s-team.vercel.app/products/${params.id}`)
             }
         ]
     }

@@ -24,7 +24,7 @@ const Tags = () => {
     }
 
     return (
-        <div className='flex justify-between items-center gap-5'>
+        <div className='md:flex md:justify-between md:items-center gap-5 grid grid-cols-3'>
             {content}
         </div>
     );
